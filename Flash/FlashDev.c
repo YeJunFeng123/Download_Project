@@ -13,7 +13,7 @@
 #ifdef FLASH_MEM
 struct FlashDevice const FlashDevice  =  {
     FLASH_DRV_VERS,                   	// Driver Version, do not modify!
-    "FK750M5_XBH6_V0",   					// Device Name 
+    "FK750M5_XBH6_Test1",   					// Device Name 
     EXTSPI,                            // Device Type
     0x90000000,                       	// Device Start Address
     8 * 1024 * 1024,                 	// Device Size in Bytes (8MB)
